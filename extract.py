@@ -14,9 +14,9 @@ import logging
 from datetime import datetime
 
 # ==================== CONFIGURATION ====================
-SOURCE_FOLDER = "/Users/huzeifamusajee/Downloads/2024"
-OUTPUT_FOLDER = "/Users/huzeifamusajee/Downloads/Converted_CSV"
-LOG_FOLDER = "/Users/huzeifamusajee/Downloads/Conversion_Logs"
+SOURCE_FOLDER = "source folder path here"  # <-- Set this to your source folder containing Excel files
+OUTPUT_FOLDER = "output folder path here"  # <-- Set this to your desired output folder for CSV files
+LOG_FOLDER = "log folder path here"  # <-- Set this to your desired log folder for logs and failed file records
 
 # ==================== SETUP ====================
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
